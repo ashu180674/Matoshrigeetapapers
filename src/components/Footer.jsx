@@ -1,4 +1,5 @@
 import React from 'react'
+import { img } from '../utils/img'
 import './Footer.css'
 
 const Footer = () => {
@@ -12,7 +13,7 @@ const Footer = () => {
         <div className="footer-wrapper">
           <div className="footer-brand-col">
             <div className="footer-brand">
-              <img src="/images/logo.png" alt="Matoshri Geeta Papers" className="footer-logo" />
+              <img src={img('logo.png')} alt="Matoshri Geeta Papers" className="footer-logo" />
               <span className="footer-brand-name">Matoshri Geeta Papers</span>
             </div>
             <p className="footer-about">

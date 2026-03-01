@@ -1,4 +1,5 @@
 import React from 'react'
+import { img } from '../utils/img'
 import './About.css'
 
 const pillars = [
@@ -14,7 +15,7 @@ const About = () => {
       <div className="about-inner">
         <div className="about-image-col">
           <img
-            src="/images/modern-machinery.png"
+            src={img('modern-machinery.png')}
             alt="Our Manufacturing Facility"
             className="about-img"
           />

@@ -1,4 +1,5 @@
 import React from 'react'
+import { img } from '../utils/img'
 import './Home.css'
 
 const stats = [
@@ -17,7 +18,7 @@ const Home = () => {
   }
 
   return (
-    <section id="home" className="home">
+    <section id="home" className="home" style={{ backgroundImage: `url(${img('sustainable.png')})` }}>
       <div className="home-overlay" />
       <div className="home-container">
         <div className="home-content">

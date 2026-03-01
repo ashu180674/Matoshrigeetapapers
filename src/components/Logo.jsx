@@ -1,11 +1,12 @@
 import React from 'react'
+import { img } from '../utils/img'
 import './Logo.css'
 
 const Logo = () => {
   return (
     <div className="logo-container">
       <img 
-        src="/images/logo.png" 
+        src={img('logo.png')} 
         alt="Matoshri Geeta Papers Logo" 
         className="logo-image"
         onError={(e) => {

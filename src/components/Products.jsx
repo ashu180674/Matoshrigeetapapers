@@ -1,4 +1,5 @@
 import React from 'react'
+import { img } from '../utils/img'
 import './Products.css'
 
 const products = [
@@ -7,21 +8,21 @@ const products = [
     name: 'Tissue Paper',
     tagline: 'Soft, strong & hygienic',
     features: ['Soft & high quality', 'Hotels, Offices & Home use'],
-    image: '/images/image_79c902aa-e733-414f-b3f1-184e2b4ea4f4.png'
+    image: img('image_79c902aa-e733-414f-b3f1-184e2b4ea4f4.png')
   },
   {
     id: 2,
     name: 'Napkin Paper',
     tagline: 'Durable & highly absorbent',
     features: ['Strong & absorbent', 'Restaurants & Events'],
-    image: '/images/image_3fc52a2b-e20b-4db8-b482-7a1e0af42908.png'
+    image: img('image_3fc52a2b-e20b-4db8-b482-7a1e0af42908.png')
   },
   {
     id: 3,
     name: 'Paper Cups',
     tagline: 'Eco-friendly, all sizes',
     features: ['Different sizes available', 'Tea, Coffee & Juice'],
-    image: '/images/Buzz-Cups.jpg'
+    image: img('Buzz-Cups.jpg')
   },
 ]
 

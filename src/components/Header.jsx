@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import { img } from '../utils/img'
 import './Header.css'
 
 const Header = () => {
@@ -21,7 +22,7 @@ const Header = () => {
     <header className={`header ${isScrolled ? 'scrolled' : ''}`}>
       <div className="header-container">
         <div className="header-brand" onClick={() => scrollToSection('home')}>
-          <img src="/images/logo.png" alt="Matoshri Geeta Papers" className="header-logo" />
+          <img src={img('logo.png')} alt="Matoshri Geeta Papers" className="header-logo" />
           <div className="header-brand-text">
             <span className="brand-name">Matoshri Geeta Papers</span>
             <span className="brand-tagline">Satna, M.P.</span>

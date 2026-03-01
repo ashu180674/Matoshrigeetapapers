@@ -1,4 +1,5 @@
 import React from 'react'
+import { img } from '../utils/img'
 import './Infrastructure.css'
 
 const features = [
@@ -50,7 +51,7 @@ const Infrastructure = () => {
         </div>
 
         <div className="infra-banner">
-          <img src="/images/modern-machinery.png" alt="Manufacturing" className="infra-banner-img" />
+          <img src={img('modern-machinery.png')} alt="Manufacturing" className="infra-banner-img" />
           <div className="infra-banner-overlay">
             <p className="infra-banner-text">"Quality is not an act, it's a habit — we build it into every product we make."</p>
             <span className="infra-banner-brand">— Matoshri Geeta Papers</span>

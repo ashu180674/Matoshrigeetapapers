@@ -1,0 +1,15 @@
+LOGO INSTRUCTIONS
+=================
+
+Please add your logo PNG file to this directory (public/) with the filename: logo.png
+
+The logo should be:
+- PNG format
+- Square or circular (recommended: 300x300px or larger)
+- Transparent background preferred
+- High resolution for best quality
+
+Once you add logo.png to the public/ folder, it will automatically appear on the website.
+
+If the logo file is not found, a placeholder will be shown instead.
+
